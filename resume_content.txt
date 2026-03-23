@@ -1,0 +1,28 @@
+﻿SAMEER BORKAR
+Engineer | Developer | Designer
++91 8208090280 | sameer.borkar1@gmail.com
+
+SUMMARY
+7+ Years of Experience in Embedded Systems, IoT, and Mobile/Web Development. Specialist in bridging hardware and software through custom PCBs, firmwares, and intuitive UI/UX.
+
+TECHNICAL SKILLS
+- Languages: C/C++, Python, Java, Swift, JavaScript, C#, .NET MVC
+- Hardware: ESP32, Arduino, Raspberry Pi, LoRa, GSM SIM800L, PLC, CAN Bus
+- Design: Altium, SolidWorks, AutoCAD, Custom PCB Design, 3D Printing
+- Tools: Android Studio, Xcode, Linux (Ubuntu/Debian), ROS (Robot Operating System)
+- Industrial: CNC/Lathe Operation, PLC Programming, Heavy Machinery Operation
+
+FEATURED PROJECTS
+1. Commercial IoT Switch (15-Relay): ESP32-based industrial controller with Flutter app.
+2. Automated ROS Tractor: Autonomous navigation system using ROS, Python, and CAN Bus.
+3. GSM 3-Phase Motor Controller: SMS-based industrial motor control with scheduler.
+4. Mobile Banking App: Secure native Android (Java) and iOS (Swift) applications.
+5. LoRa Water Level Controller: 2+ km range wireless tank monitoring system.
+6. Smart Switch & Fan Regulator: Integrated home automation with real-time feedback.
+7. Weather Monitoring Station: Raspberry Pi based solar-powered telemetry.
+8. Car Dashboard QA System: .NET MVC production-line testing for automotive gauges.
+9. Resort Management System: Full-stack booking and administration platform.
+
+EXPERIENCE
+- 7+ Years of Freelance & Professional Engineering Projects.
+- Expertise in Marketing, Sales, and Industrial Design.
