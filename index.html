@@ -1,0 +1,304 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sameer Borkar | Portfolio</title>
+    <meta name="description" content="Sameer Borkar — Engineer, Developer, Designer. IoT, embedded systems, PCB design, 3D printing, mobile apps, and automotive engineering.">
+    <link rel="stylesheet" href="styles.css">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&family=Outfit:wght@400;700;900&display=swap" rel="stylesheet">
+</head>
+<body>
+    <main id="ui-container">
+        <nav class="navbar">
+            <h1 class="logo">SB.</h1>
+            <div class="menu-toggle">☰</div>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#projects">Projects</a></li>
+                <li><a href="#extra">Extra</a></li>
+                <li><a href="#contact">Contact</a></li>
+            </ul>
+        </nav>
+
+        <!-- HERO -->
+        <section id="home" class="section hero">
+            <div class="hero-content content block">
+                <p class="subtitle">Hi, I am</p>
+                <h1 class="title">Sameer Borkar</h1>
+                <p class="description">Engineer | Developer | Designer<br>7+ Years of Experience crafting hardware, software, and everything in between.</p>
+                <div class="hero-btns">
+                    <a href="#skills" class="btn">Explore Work</a>
+                    <a href="resume.pdf" download target="_blank" class="btn outline">Download Resume</a>
+                </div>
+            </div>
+            <div class="hero-image content">
+                <img src="images/hero_workshop.png" alt="Electronics workshop workbench with tools and components">
+            </div>
+        </section>
+
+        <!-- ABOUT -->
+        <section id="about" class="section">
+            <div class="content glass-card about-card">
+                <div class="about-text">
+                    <h2>About Me</h2>
+                    <p>With <strong>7+ years of professional experience</strong>, I thrive at the intersection of bits and atoms. From writing low-level code for embedded systems to designing complex 3D printed mechanical prototypes, I build solutions that bridge the physical and digital worlds.</p>
+                </div>
+                <div class="about-image">
+                    <img src="images/coding_setup.png" alt="Developer workstation with code and electronics">
+                </div>
+            </div>
+        </section>
+
+        <!-- SKILLS -->
+        <section id="skills" class="section">
+            <div class="content glass-card wide">
+                <h2>Technical Arsenal</h2>
+                <div class="skills-grid">
+                    <div class="skill-category">
+                        <div class="skill-icon"><img src="images/pcb_closeup.png" alt="PCB circuit board"></div>
+                        <h3>Hardware & IoT</h3>
+                        <p>IoT Systems, Embedded Hardware/Software, PCB Design, CAN Bus Protocol, Raspberry Pi, Arduino</p>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-icon"><img src="images/coding_setup.png" alt="Coding setup"></div>
+                        <h3>Software & Web</h3>
+                        <p>.NET MVC, SQL, Python, Java</p>
+                    </div>
+                    <div class="skill-category">
+                        <div class="skill-icon"><img src="images/3d_printer.png" alt="3D printer"></div>
+                        <h3>Mobile & Design</h3>
+                        <p>Android (Java), iOS (Swift), 3D Modeling (Prototyping/Printing)</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECTS -->
+        <section id="projects" class="section">
+            <div class="content glass-card wide">
+                <h2>Featured Projects</h2>
+                <div class="projects-grid">
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="Commercial IoT Switch (15-Relay)"
+                        data-img="images/project_iot_relay.png"
+                        data-tech="ESP32, C/C++, Custom PCB, Mobile App (Flutter), RF 433MHz"
+                        data-role="Lead Hardware & Firmware Engineer"
+                        data-duration="6 months"
+                        data-desc="Designed and developed an ESP32-based 15-relay commercial switch operable via a custom mobile app and RF remote. The system features real-time status monitoring, scheduled automation, and fail-safe relay protection."
+                        data-features="15 independent relay channels|Custom PCB design with multi-layer board|Mobile app with real-time control & scheduling|RF 433MHz remote as backup control|OTA firmware update support|Power consumption monitoring">
+                        <div class="project-img"><img src="images/project_iot_relay.png" alt="IoT switch system"></div>
+                        <h3>Commercial IoT Switch (15-Relay)</h3>
+                        <p>Designed and developed an ESP32-based 15-relay commercial switch operable via a custom mobile app and RF remote.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="Smart Switch & Fan Regulator"
+                        data-img="images/project_smart_switch.png"
+                        data-tech="ESP8266, TRIAC dimmer, Custom PCB, Arduino IDE, MQTT"
+                        data-role="IoT Developer & PCB Designer"
+                        data-duration="3 months"
+                        data-desc="IoT-enabled 4-switch home automation controller with integrated fan speed regulation. Uses TRIAC-based dimming for smooth, silent fan speed control with WiFi and voice assistant integration."
+                        data-features="4 independent switch channels|TRIAC-based fan speed regulator (5 levels)|Voice control via Google Home / Alexa|MQTT protocol for real-time sync|Compact retrofit design for existing switchboards|Zero-crossing detection for noise-free operation">
+                        <div class="project-img"><img src="images/project_smart_switch.png" alt="Smart switch"></div>
+                        <h3>Smart Switch & Fan Regulator</h3>
+                        <p>IoT-enabled 4-switch home automation controller with integrated fan speed regulation capabilities.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="Automated ROS Tractor"
+                        data-img="images/project_tractor.png"
+                        data-tech="ROS (Robot Operating System), Python, CAN Bus, GPS/RTK, LiDAR"
+                        data-role="Embedded Systems Engineer"
+                        data-duration="12 months"
+                        data-desc="Processed ROS signals to control rear motor and steering system for autonomous navigation. Designed the complete tractor wiring harness integrating sensors, actuators, and the central ECU for precision agriculture."
+                        data-features="ROS-based autonomous navigation stack|CAN Bus communication for motor control|GPS/RTK for centimeter-level positioning|Complete wiring harness design|Emergency stop and manual override system|Integration with agricultural implements">
+                        <div class="project-img"><img src="images/project_tractor.png" alt="Automated tractor"></div>
+                        <h3>Automated ROS Tractor</h3>
+                        <p>Processed ROS signals to control rear motor and steering system for autonomous navigation, designed the complete tractor wiring harness.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="Weather Monitoring Station"
+                        data-img="images/project_weather.png"
+                        data-tech="Raspberry Pi 4, Python, BME280, Anemometer, Rain Gauge, Flask"
+                        data-role="Full Stack IoT Developer"
+                        data-duration="4 months"
+                        data-desc="Designed and developed a comprehensive weather monitoring system integrating multiple environmental sensors with a Raspberry Pi. Features a web dashboard for real-time data visualization with historical trends and alerts."
+                        data-features="Temperature, humidity & pressure monitoring (BME280)|Wind speed & direction measurement|Rainfall tracking with tipping bucket gauge|Web dashboard with live charts (Flask + Chart.js)|Data logging to SQLite with CSV export|Email/SMS alerts for extreme weather conditions">
+                        <div class="project-img"><img src="images/project_weather.png" alt="Weather station"></div>
+                        <h3>Weather Monitoring Station</h3>
+                        <p>Designed and developed a comprehensive weather monitoring system integrating multiple environmental sensors with a Raspberry Pi.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="LoRa Water Level Controller"
+                        data-img="images/project_lora.png"
+                        data-tech="LoRa SX1278, ATmega328P, Ultrasonic Sensor, Custom PCB"
+                        data-role="Hardware & Firmware Engineer"
+                        data-duration="3 months"
+                        data-desc="Developed a long-range wireless water tank monitoring and automated pump control system using the LoRa protocol. Achieves reliable communication over 2+ km range for remote agricultural installations."
+                        data-features="LoRa wireless communication (2+ km range)|Ultrasonic water level measurement|Automated pump ON/OFF control|Low power design with solar charging|LCD display for local status|Configurable high/low water thresholds">
+                        <div class="project-img"><img src="images/project_lora.png" alt="LoRa controller"></div>
+                        <h3>LoRa Water Level Controller</h3>
+                        <p>Developed a long-range wireless water tank monitoring and automated pump control system using the LoRa protocol.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="Car Dashboard QA System"
+                        data-img="images/project_dashboard_qa.png"
+                        data-tech=".NET MVC, SQL Server, CAN Bus Analyzer, Custom Test Jig, C#"
+                        data-role="QA Systems Developer"
+                        data-duration="8 months"
+                        data-desc="Designed a production-line testing system to verify all electronic components of car dashboards before final assembly. Automated testing of gauges, indicators, CAN bus communication, and backlighting through a custom test jig."
+                        data-features="Automated test sequences for 50+ checkpoints|CAN Bus protocol verification|Custom mechanical test jig design|.NET MVC dashboard for test results & reporting|SQL Server database for pass/fail traceability|Real-time defect rate analytics">
+                        <div class="project-img"><img src="images/project_dashboard_qa.png" alt="Car dashboard QA"></div>
+                        <h3>Car Dashboard QA System</h3>
+                        <p>Designed a production-line testing system to verify all electronic components of car dashboards before final assembly.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="Mobile Banking App"
+                        data-img="images/project_banking.png"
+                        data-tech="Android (Java), iOS (Swift), REST API, AES-256 Encryption, Biometric Auth"
+                        data-role="Mobile Application Developer"
+                        data-duration="10 months"
+                        data-desc="Developed a secure and robust mobile banking application natively for Android (Java) and iOS (Swift). Implemented end-to-end encryption, biometric authentication, and real-time transaction processing."
+                        data-features="Native Android (Java) & iOS (Swift) apps|AES-256 end-to-end encryption|Biometric authentication (fingerprint & face)|Real-time fund transfer & bill payments|Transaction history with search & filters|Push notifications for account activity">
+                        <div class="project-img"><img src="images/project_banking.png" alt="Mobile banking"></div>
+                        <h3>Mobile Banking App</h3>
+                        <p>Developed a secure and robust mobile banking application natively for Android (Java) and iOS (Swift).</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="Resort Management System"
+                        data-img="images/project_resort.png"
+                        data-tech=".NET MVC, SQL Server, jQuery, Bootstrap, Crystal Reports"
+                        data-role="Full Stack Developer"
+                        data-duration="6 months"
+                        data-desc="Developed a complete management solution handling resort bookings, customer service, and daily administration. Features room inventory, billing, staff management, and detailed reporting for management insights."
+                        data-features="Room booking & availability calendar|Guest check-in/check-out workflow|Billing & invoice generation (Crystal Reports)|Staff scheduling & task assignment|Inventory management for housekeeping supplies|Revenue analytics dashboard">
+                        <div class="project-img"><img src="images/project_resort.png" alt="Resort management"></div>
+                        <h3>Resort Management System</h3>
+                        <p>Developed a complete management solution handling resort bookings, customer service, and daily administration.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                    <div class="project-card" onclick="openProjectModal(this)"
+                        data-title="GSM 3-Phase Motor Controller"
+                        data-img="images/project_gsm_motor.png"
+                        data-tech="GSM SIM800L, ATmega328P, Contactor Relay, Custom PCB, SMS Protocol"
+                        data-role="Embedded Systems Engineer"
+                        data-duration="4 months"
+                        data-desc="Industrial GSM-based 3-phase motor controller with integrated scheduler/timer for automated irrigation and industrial control. Allows remote motor start/stop via SMS commands with built-in safety features."
+                        data-features="GSM remote control via SMS commands|Programmable daily/weekly scheduler|3-phase voltage & current monitoring|Dry-run and overload protection|Real-time status SMS notifications|Phase reversal and single-phasing protection">
+                        <div class="project-img"><img src="images/project_gsm_motor.png" alt="GSM motor controller"></div>
+                        <h3>GSM 3-Phase Motor Controller</h3>
+                        <p>Industrial GSM-based 3-phase motor controller with integrated scheduler/timer for automated irrigation and industrial control.</p>
+                        <span class="card-hint">Click for details →</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- PROJECT DETAIL MODAL -->
+        <div id="project-modal" class="modal-overlay" onclick="closeProjectModal(event)">
+            <div class="modal-content">
+                <button class="modal-close" onclick="closeProjectModal(event, true)">&times;</button>
+                <div class="modal-img" id="modal-img"></div>
+                <h2 id="modal-title"></h2>
+                <div class="modal-meta">
+                    <span class="meta-tag" id="modal-role"></span>
+                    <span class="meta-tag" id="modal-duration"></span>
+                </div>
+                <p class="modal-desc" id="modal-desc"></p>
+                <div class="modal-section">
+                    <h4>🛠️ Tech Stack</h4>
+                    <div class="tech-tags" id="modal-tech"></div>
+                </div>
+                <div class="modal-section">
+                    <h4>⚡ Key Features</h4>
+                    <ul id="modal-features"></ul>
+                </div>
+            </div>
+        </div>
+
+        <!-- EXTRA SKILLS -->
+        <section id="extra" class="section">
+            <div class="content glass-card extra-card">
+                <div class="extra-text">
+                    <h2>Beyond the Screen</h2>
+                    <p><strong>Extra Skills:</strong> Marketing, Sales, 3D Printing, Lathe Operating, CNC Operating & Design.</p>
+                    <br>
+                    <p>When I'm not writing code or laying out PCBs, you'll find me covered in grease working on cars. Automotive mechanics and tuning are my ultimate passion projects. I am also highly adept at operating heavy machinery and can drive cars, trucks, and excavators.</p>
+                </div>
+                <div class="extra-images">
+                    <img src="images/3d_printer.png" alt="3D Printer" class="extra-img">
+                    <img src="images/extra_cnc.png" alt="CNC Lathe" class="extra-img">
+                </div>
+            </div>
+        </section>
+
+        <!-- TECH LOGOS -->
+        <section class="section tech-logos-section">
+            <div class="content glass-card wide">
+                <h2>Tools & Platforms</h2>
+                <div class="logo-grid">
+                    <div class="logo-item">
+                        <div class="logo-icon">🖨️</div>
+                        <span>3D Printer</span>
+                    </div>
+                    <div class="logo-item">
+                        <div class="logo-icon">🔌</div>
+                        <span>PCB Design</span>
+                    </div>
+                    <div class="logo-item">
+                        <div class="logo-icon">🤖</div>
+                        <span>Robotics</span>
+                    </div>
+                    <div class="logo-item">
+                        <div class="logo-icon">🍓</div>
+                        <span>Raspberry Pi</span>
+                    </div>
+                    <div class="logo-item">
+                        <div class="logo-icon">♾️</div>
+                        <span>Arduino</span>
+                    </div>
+                    <div class="logo-item">
+                        <div class="logo-icon">🐧</div>
+                        <span>Linux</span>
+                    </div>
+                    <div class="logo-item">
+                        <div class="logo-icon">🍎</div>
+                        <span>Apple</span>
+                    </div>
+                    <div class="logo-item">
+                        <div class="logo-icon">🪟</div>
+                        <span>Windows</span>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- CONTACT -->
+        <section id="contact" class="section">
+            <div class="content block footer-block">
+                <h2>Let's Build Something</h2>
+                <div class="contact-details">
+                    <p>📞 <strong>+91 8208090280</strong></p>
+                    <p>📧 <strong>sameer.borkar1@gmail.com</strong></p>
+                </div>
+                <p>Ready to collaborate on an innovative project?</p>
+                <div class="footer-btns">
+                    <a href="mailto:sameer.borkar1@gmail.com" class="btn primary">Get in Touch</a>
+                    <a href="resume.pdf" download target="_blank" class="btn outline">Download Resume</a>
+                </div>
+                <p class="footer-credits">© Sameer Borkar</p>
+            </div>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>

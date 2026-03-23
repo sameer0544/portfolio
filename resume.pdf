@@ -1,0 +1,68 @@
+%PDF-1.4
+1 0 obj
+<</Type/Catalog/Pages 2 0 R>>
+endobj
+2 0 obj
+<</Type/Pages/Kids[3 0 R]/Count 1>>
+endobj
+3 0 obj
+<</Type/Page/Parent 2 0 R/MediaBox[0 0 612 792]/Resources<</Font<</F1 4 0 R/F2 5 0 R>>>>/Contents 6 0 R>>
+endobj
+4 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Helvetica-Bold>>
+endobj
+5 0 obj
+<</Type/Font/Subtype/Type1/BaseFont/Helvetica>>
+endobj
+6 0 obj
+<</Length 1500>>
+stream
+BT
+/F1 18 Tf 72 720 Td (SAMEER BORKAR) Tj
+/F2 12 Tf 0 -20 Td (Engineer | Developer | Designer) Tj
+/F2 10 Tf 0 -15 Td (Phone: +91 8208090280 | Email: sameer.borkar1@gmail.com) Tj
+/F1 14 Tf 0 -30 Td (PROFESSIONAL SUMMARY) Tj
+/F2 10 Tf 0 -15 Td (Dynamic Engineer with 7+ years of experience at the intersection of Hardware and Software.) Tj
+0 -12 Td (Expertise in IoT Systems, Embedded Hardware, PCB Design, and Full Stack Development.) Tj
+/F1 14 Tf 0 -30 Td (CORE SKILLS) Tj
+/F2 10 Tf 0 -15 Td (Hardware: IoT Systems, PCB Design, CAN Bus, Raspberry Pi, Arduino) Tj
+0 -12 Td (Software: .NET MVC, SQL, Python, Java, Android (Java), iOS (Swift)) Tj
+0 -12 Td (Industrial: 3D Printing, CNC Operating, Lathe Operating, Automotive Tuning) Tj
+/F1 14 Tf 0 -30 Td (PROJECTS) Tj
+/F1 10 Tf 0 -15 Td (1. Commercial IoT Switch (15-Relay)) Tj
+/F2 10 Tf 0 -12 Td (   ESP32-based 15-relay commercial switch with mobile app and RF remote.) Tj
+/F1 10 Tf 0 -15 Td (2. Smart Switch & Fan Regulator) Tj
+/F2 10 Tf 0 -12 Td (   IoT home automation controller with integrated fan speed regulation.) Tj
+/F1 10 Tf 0 -15 Td (3. Automated ROS Tractor) Tj
+/F2 10 Tf 0 -12 Td (   ROS-based autonomous navigation and control systems for agricultural tractors.) Tj
+/F1 10 Tf 0 -15 Td (4. Weather Monitoring Station) Tj
+/F2 10 Tf 0 -12 Td (   Raspberry Pi integrated environmental sensor suite.) Tj
+/F1 10 Tf 0 -15 Td (5. LoRa Water Level Controller) Tj
+/F2 10 Tf 0 -12 Td (   Long-range wireless automated pump control system.) Tj
+/F1 10 Tf 0 -15 Td (6. Car Dashboard QA System) Tj
+/F2 10 Tf 0 -12 Td (   Production-line electronics verification system for dashboards.) Tj
+/F1 10 Tf 0 -15 Td (7. Mobile Banking App) Tj
+/F2 10 Tf 0 -12 Td (   Native iOS and Android secure banking solutions.) Tj
+/F1 10 Tf 0 -15 Td (8. Resort Management System) Tj
+/F2 10 Tf 0 -12 Td (   Full-suite booking and administration software.) Tj
+/F1 10 Tf 0 -15 Td (9. GSM 3-Phase Motor Controller) Tj
+/F2 10 Tf 0 -12 Td (   Industrial GSM controller with scheduler for 3-phase motors.) Tj
+/F1 14 Tf 0 -30 Td (EXTRA SKILLS) Tj
+/F2 10 Tf 0 -15 Td (Marketing, Sales, Heavy Machinery Operation (Excavators, Trucks), Automotive Mechanics.) Tj
+ET
+endstream
+endobj
+xref
+0 7
+0000000000 65535 f
+0000000009 00000 n
+0000000056 00000 n
+0000000111 00000 n
+0000000213 00000 n
+0000000282 00000 n
+0000000344 00000 n
+trailer
+<</Size 7/Root 1 0 R>>
+startxref
+1920
+%%EOF
