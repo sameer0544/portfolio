@@ -118,6 +118,20 @@ img {
 
 .section-center .glass-card {
     margin: 0 auto;
+    text-align: center;
+}
+
+.section-center h2 {
+    text-align: center;
+    width: 100%;
+}
+
+.section-center .skills-grid,
+.section-center .projects-grid,
+.section-center .logo-grid {
+    margin-left: auto;
+    margin-right: auto;
+    justify-content: center;
 }
 
 /* Glass Card */
