@@ -418,9 +418,9 @@ p {
 .logo-grid {
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    gap: 1.5rem;
+    gap: 1.2rem;
     margin: 2rem auto 0;
-    max-width: 800px;
+    max-width: 900px;
 }
 
 .logo-item {
@@ -529,6 +529,7 @@ p {
 
     .logo-grid {
         grid-template-columns: repeat(2, 1fr);
+        gap: 1rem;
         max-width: 100%;
     }
 }
