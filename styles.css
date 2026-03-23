@@ -109,6 +109,17 @@ img {
     transform: translateY(0);
 }
 
+/* Centered Sections (After About Me) */
+.section-center {
+    flex-direction: column;
+    justify-content: center;
+    text-align: center;
+}
+
+.section-center .glass-card {
+    margin: 0 auto;
+}
+
 /* Glass Card */
 .glass-card {
     background: var(--glass-bg);
@@ -406,9 +417,10 @@ p {
 
 .logo-grid {
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(120px, 1fr));
+    grid-template-columns: repeat(4, 1fr);
     gap: 1.5rem;
-    margin-top: 2rem;
+    margin: 2rem auto 0;
+    max-width: 800px;
 }
 
 .logo-item {
@@ -516,7 +528,8 @@ p {
     }
 
     .logo-grid {
-        grid-template-columns: repeat(4, 1fr);
+        grid-template-columns: repeat(2, 1fr);
+        max-width: 100%;
     }
 }
 
